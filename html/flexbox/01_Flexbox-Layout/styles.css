@@ -1,0 +1,48 @@
+body{
+    background-color: #EEE;
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header, main, aside, footer{
+    padding: 2rem;
+    background-color: #FFF;
+    border: 1px #EEE;
+    border-radius: 0.4rem;
+    color: #000;
+    margin: 0.5em;
+    box-shadow: 0 0 10px rgb(167, 162, 162);
+}
+
+header, footer{
+    flex-basis: 100%;
+    padding: 10px;
+    width: auto;
+    height: 65px;
+}
+
+main{
+    padding: 10px;
+    flex: 8 1 40rem;
+    display: inline-block;
+}
+aside{
+    padding: 10px;
+    flex: 2 1 20rem;
+    display: inline-block;
+}
+
+div{
+    flex-basis: 100%;
+    display: flex;
+    width: auto;
+    height: 200px;
+}
+
+p{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: flex-start;
+}

@@ -1,0 +1,44 @@
+body {
+    display: grid;
+    grid-template-rows: 400px 400px;
+
+
+}
+
+section .card {
+    display: block;
+    position: absolute;
+}
+
+.viewport {
+    position: relative;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+.i1,
+.i2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.viewport:nth-child(1) {
+    background-image: linear-gradient(to right, blue, green);
+}
+
+.viewport:nth-child(2) {
+    background-image: linear-gradient(to right, red, yellow);
+}
+
+svg {
+    width: 30px;
+    height: auto;
+    fill: aliceblue;
+}

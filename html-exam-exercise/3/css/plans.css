@@ -1,0 +1,62 @@
+.subs{
+    display: flex;
+    padding-left: 40px;
+}
+
+.subs div{
+    width: 200px;
+    height: 500px;
+}
+
+div h3{
+    text-align: center;
+}
+
+div p{
+    text-align: start;
+}
+
+.fee{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+div ul{
+    display: inline;
+}
+
+.plan-button{
+    display: flex;
+    direction: column;
+    justify-content: center;
+    flex-basis: 100%;
+    padding-top: 30px;
+}
+
+div a{
+    text-decoration: none;
+    color: black;
+    width: 70px;
+    height: 30px;
+    border: 1px solid #ADE2DF;
+    background-color: #ADE2DF;
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px; 
+}
+
+.expand{
+    width: 500px;
+    height: 400px;
+    background-color: #ADE2DF;
+    
+}
+
+.expand a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border: 1px solid black;;
+    border-radius: 10px;
+    padding: 15px 30px 15px 30px;
+   margin-top: 20px;
+}

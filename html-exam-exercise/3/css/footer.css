@@ -1,0 +1,9 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+footer ul{
+    display: flex;
+}

@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:#D9D9D9;
+    height: 60px;
+    padding-top: 20px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none; 
+    margin-left: 40px;
+}
+
+nav button{
+    color: black;
+    background-color: white;
+    border: 1 solid black;
+    width: 115px;
+    height: 40px;
+    margin-right: 50px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.header-title{
+    background-image: url(/03.PlanScheduler_Resources/background.jpg);
+}
+
+.header-title button{
+    flex-grow: 2;
+    background-color: black;
+    color: white;
+    margin: 2em;
+    margin-left: 0.3em;
+    width: 165px;
+    height: 60px;
+}
+
+.header-title p{
+    text-align: justify;
+}

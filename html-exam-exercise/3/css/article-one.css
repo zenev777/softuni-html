@@ -1,0 +1,17 @@
+.art-one{
+    display: flex;
+    justify-content: center;
+}
+
+.info{
+    width: 200px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+    border-right:1px solid #DBDBDB;
+    border-left:1px solid #DBDBDB;
+}
+
+.info p{
+    text-align: center;
+}

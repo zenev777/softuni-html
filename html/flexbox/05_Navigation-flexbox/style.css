@@ -1,0 +1,45 @@
+html{
+    font-family: Helvetica, sans-serif;
+}
+
+body header{
+    display: flex;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+body{
+    margin-left: 2em;
+}
+
+span{
+    font-size: 60px;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+
+nav{
+    display: flex;
+    margin-left: 5em;
+    flex-grow: 1;
+    justify-content: end;
+    
+}
+
+ul{
+    display: flex;
+    padding: 0;
+    gap: 20px;
+}
+
+ul li{
+    list-style: none;
+    
+    
+}
+
+nav a{
+    color:  rgb(0, 153, 0);
+    text-decoration: none;
+}
+

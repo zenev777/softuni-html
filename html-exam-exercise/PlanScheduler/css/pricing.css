@@ -1,0 +1,61 @@
+.pricing {
+    display: flex;
+    background-color: #F5F5F5;
+}
+
+.pricing .plans {
+    flex-grow: 2;
+    width: 400px;
+    background-color: #F5F5F5;
+    padding-left: 2em;
+    margin-left: 3em;
+}
+
+.pricing .plans p{
+    text-align: justify;
+}
+
+.pricing .free {
+    flex-grow: 2;
+    background-color: #FF7C4C;
+    margin: 2em;
+    margin-right: 0.3em;
+}
+
+.pricing .premium {
+    flex-grow: 2;
+    background-color: black;
+    color: white;
+    margin: 2em;
+    margin-left: 0.3em;
+}
+
+.pricing article h1, h3, p, button{
+text-align: center;
+}
+
+.pricing article h1{
+margin: 0.5em;
+}
+
+.pricing .free button{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 165px;
+    height: 60px;
+    margin-bottom: 40px;
+    margin-left: 120px;
+}
+
+.pricing .premium button{
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 165px;
+    height: 60px;
+    margin-bottom: 40px;
+    margin-left: 120px;
+}

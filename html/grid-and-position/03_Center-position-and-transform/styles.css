@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(238, 238, 238);
+    font-family: Georgia, serif;
+}
+
+h3{
+    font-size: 1.2;
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    border: solid 0.5px whitesmoke;
+    box-shadow: 0 0 10px rgb(167, 162, 162);
+    width: 500px;
+    height: 530px;
+    display: grid;
+    grid-template-rows: 330px 180px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    
+}
+
+
+
+.txt{
+    display: flex;
+    justify-content: end;
+}
+
+h3, p{
+    margin-left: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    border: solid 1px white;
+    background-color: rgb(79, 175, 79);
+    padding: 20px 30px 20px 30px;
+    width: 70px;
+    height: 20px;
+    margin: 0px 25px 15px 30px;
+}

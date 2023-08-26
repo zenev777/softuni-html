@@ -1,0 +1,22 @@
+footer{
+    background-color: #D9D9D9;
+    height: 80px;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+footer ul{
+    padding-top: 30px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    list-style: none;
+}
+
+
+svg{
+    width: 20px;
+    height: auto;
+}
+
